@@ -1,9 +1,9 @@
 <?php 
 
     if (is_front_page()){
-		wp_enqueue_style('front-page', get_template_directory_uri().'resources');
+		wp_enqueue_style('front-page', get_stylesheet_uri().'resources');
 	
-	add_action('admin_enqueue_scripts', 'front-page');
+	add_action('get_stylesheet_uri', 'front-page');
     }
 	function resources(){
 

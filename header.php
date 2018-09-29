@@ -3,9 +3,9 @@
 <head>
 <!--my custom style sheet for front page is in the resources folder-->
 	<?php  if (is_front_page()){
-		wp_enqueue_style('front-page', get_template_directory_uri().'/resources');
+		wp_enqueue_style('front-page', get_stylesheet_uri().'resources');
 	
-	add_action('admin_enqueue_scripts', 'front-page');
+		add_action('get_stylesheet_uri', 'front-page');
     }?>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width">

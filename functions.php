@@ -1,10 +1,11 @@
 <?php 
-
-    if (is_front_page()){
-		wp_enqueue_style('front-page', get_stylesheet_uri().'resources');
+var_dump(get_stylesheet_uri());
+var_dump( get_stylesheet_directory());
+    // if (is_front_page()){
+	// 	wp_enqueue_style('front-page',  get_stylesheet_directory().'/resources/front-page.css');
 	
-	add_action('get_stylesheet_uri', 'front-page');
-    }
+	// //add_action('get_stylesheet_directory', 'front-page');
+    // }
 	function resources(){
 
 		wp_enqueue_style('style', get_stylesheet_uri() );

@@ -2,14 +2,22 @@
 <html>
 <head>
 <!--my custom style sheet for front page is in the resources folder-->
-	<?php  if (is_front_page()){
-		wp_enqueue_style('front-page', get_stylesheet_uri().'resources');
+	<?php  
+	if (is_front_page()){
+		// wp_enqueue_style('front-page', get_stylesheet_uri().'resources');
 	
-		add_action('get_stylesheet_uri', 'front-page');
-    }?>
+		// add_action('get_stylesheet_uri', 'front-page');
+		var_dump('hello');
+		?>
+		
+		<link rel="stylesheet" type="text/css" href="/wordpress/wp-content/themes/portfolioSite/resources/front-page.css">
+   <?php
+}
+?>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width">
 	<title><?php bloginfo('name'); ?></title>
+
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

@@ -20,12 +20,12 @@ body {
     width: 100%;
 }
 .name{
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    margin: 0 0 0 0;
     display: flex;
-    justify-content: center
+    justify-content: flex-start;
 }
 #me{
-    margin: 100px 0 0 0;
-    color: blanchedalmond;
+    margin: -24px 0 0 0;
+    color: rgb(48, 51, 7);
 }

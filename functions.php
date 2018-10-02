@@ -1,6 +1,5 @@
 <?php 
-var_dump(get_stylesheet_uri());
-var_dump( get_stylesheet_directory());
+
     // if (is_front_page()){
 	// 	wp_enqueue_style('front-page',  get_stylesheet_directory().'/resources/front-page.css');
 	

@@ -7,7 +7,7 @@
 		// wp_enqueue_style('front-page', get_stylesheet_uri().'resources');
 	
 		// add_action('get_stylesheet_uri', 'front-page');
-		var_dump('hello');
+		
 		?>
 		
 		<link rel="stylesheet" type="text/css" href="/wordpress/wp-content/themes/portfolioSite/resources/front-page.css">

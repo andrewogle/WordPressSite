@@ -4,7 +4,7 @@ add_action('wp_enqueue_scripts', 'my_portfolio_styles');
 function my_portfolio_styles()
 {
   if (is_front_page()) {
-    wp_enqueue_style('front-page', get_stylesheet_directory_uri() . '/resources/front-page.css', array(), false, 'screen');
+    wp_enqueue_style('front-page', get_stylesheet_directory_uri() . '/css/front-page.css', array(), false, 'screen');
   }
 }
 

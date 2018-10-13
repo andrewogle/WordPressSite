@@ -26,6 +26,7 @@
 		<header class="site-header">
 			<nav class="site-nav">
 
+					<h1 class='me'>Andrew Ogle</h1>
 
 				<?php 
 

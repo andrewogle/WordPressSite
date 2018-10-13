@@ -10,7 +10,7 @@
 		
 		?>
 		
-		<link rel="stylesheet" type="text/css" href="/wordpress/wp-content/themes/portfolioSite/resources/front-page.css">
+		<!-- <link rel="stylesheet" type="text/css" href="/wordpress/wp-content/themes/portfolioSite/resources/front-page.css"> -->
    <?php
 }
 ?>
